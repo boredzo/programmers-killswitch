@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3188DF43144CE931004A5219 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3188DF42144CE931004A5219 /* Cocoa.framework */; };
+		3188DF4D144CE931004A5219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3188DF4B144CE931004A5219 /* InfoPlist.strings */; };
+		3188DF4F144CE931004A5219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3188DF4E144CE931004A5219 /* main.m */; };
+		3188DF53144CE931004A5219 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3188DF51144CE931004A5219 /* Credits.rtf */; };
+		3188DF56144CE931004A5219 /* PKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3188DF55144CE931004A5219 /* PKAppDelegate.m */; };
+		3188DF59144CE932004A5219 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3188DF57144CE932004A5219 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3188DF3E144CE931004A5219 /* Programmer's Killswitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmer's Killswitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3188DF42144CE931004A5219 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3188DF45144CE931004A5219 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3188DF46144CE931004A5219 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3188DF47144CE931004A5219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3188DF4A144CE931004A5219 /* Programmer's Killswitch-Info.plist */ = {isa = PBXFileReference; path = "Programmer's Killswitch-Info.plist"; sourceTree = "<group>"; };
+		3188DF4C144CE931004A5219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3188DF4E144CE931004A5219 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3188DF50144CE931004A5219 /* Programmer's Killswitch-Prefix.pch */ = {isa = PBXFileReference; path = "Programmer's Killswitch-Prefix.pch"; sourceTree = "<group>"; };
+		3188DF52144CE931004A5219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3188DF54144CE931004A5219 /* PKAppDelegate.h */ = {isa = PBXFileReference; path = PKAppDelegate.h; sourceTree = "<group>"; };
+		3188DF55144CE931004A5219 /* PKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAppDelegate.m; sourceTree = "<group>"; };
+		3188DF58144CE932004A5219 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3188DF3B144CE931004A5219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3188DF43144CE931004A5219 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3188DF33144CE931004A5219 = {
+			isa = PBXGroup;
+			children = (
+				3188DF48144CE931004A5219 /* Programmer's Killswitch */,
+				3188DF41144CE931004A5219 /* Frameworks */,
+				3188DF3F144CE931004A5219 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3188DF3F144CE931004A5219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3188DF3E144CE931004A5219 /* Programmer's Killswitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3188DF41144CE931004A5219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3188DF42144CE931004A5219 /* Cocoa.framework */,
+				3188DF44144CE931004A5219 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3188DF44144CE931004A5219 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3188DF45144CE931004A5219 /* AppKit.framework */,
+				3188DF46144CE931004A5219 /* CoreData.framework */,
+				3188DF47144CE931004A5219 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3188DF48144CE931004A5219 /* Programmer's Killswitch */ = {
+			isa = PBXGroup;
+			children = (
+				3188DF54144CE931004A5219 /* PKAppDelegate.h */,
+				3188DF55144CE931004A5219 /* PKAppDelegate.m */,
+				3188DF57144CE932004A5219 /* MainMenu.xib */,
+				3188DF49144CE931004A5219 /* Supporting Files */,
+			);
+			path = "Programmer's Killswitch";
+			sourceTree = "<group>";
+		};
+		3188DF49144CE931004A5219 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3188DF4A144CE931004A5219 /* Programmer's Killswitch-Info.plist */,
+				3188DF4B144CE931004A5219 /* InfoPlist.strings */,
+				3188DF4E144CE931004A5219 /* main.m */,
+				3188DF50144CE931004A5219 /* Programmer's Killswitch-Prefix.pch */,
+				3188DF51144CE931004A5219 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3188DF3D144CE931004A5219 /* Programmer's Killswitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3188DF5C144CE932004A5219 /* Build configuration list for PBXNativeTarget "Programmer's Killswitch" */;
+			buildPhases = (
+				3188DF3A144CE931004A5219 /* Sources */,
+				3188DF3B144CE931004A5219 /* Frameworks */,
+				3188DF3C144CE931004A5219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Programmer's Killswitch";
+			productName = "Programmer's Killswitch";
+			productReference = 3188DF3E144CE931004A5219 /* Programmer's Killswitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3188DF35144CE931004A5219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3188DF38144CE931004A5219 /* Build configuration list for PBXProject "Programmer's Killswitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3188DF33144CE931004A5219;
+			productRefGroup = 3188DF3F144CE931004A5219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3188DF3D144CE931004A5219 /* Programmer's Killswitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3188DF3C144CE931004A5219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3188DF4D144CE931004A5219 /* InfoPlist.strings in Resources */,
+				3188DF53144CE931004A5219 /* Credits.rtf in Resources */,
+				3188DF59144CE932004A5219 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3188DF3A144CE931004A5219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3188DF4F144CE931004A5219 /* main.m in Sources */,
+				3188DF56144CE931004A5219 /* PKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3188DF4B144CE931004A5219 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3188DF4C144CE931004A5219 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3188DF51144CE931004A5219 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3188DF52144CE931004A5219 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3188DF57144CE932004A5219 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3188DF58144CE932004A5219 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3188DF5A144CE932004A5219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3188DF5B144CE932004A5219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3188DF5D144CE932004A5219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Programmer's Killswitch/Programmer's Killswitch-Prefix.pch";
+				INFOPLIST_FILE = "Programmer's Killswitch/Programmer's Killswitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3188DF5E144CE932004A5219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Programmer's Killswitch/Programmer's Killswitch-Prefix.pch";
+				INFOPLIST_FILE = "Programmer's Killswitch/Programmer's Killswitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3188DF38144CE931004A5219 /* Build configuration list for PBXProject "Programmer's Killswitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3188DF5A144CE932004A5219 /* Debug */,
+				3188DF5B144CE932004A5219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3188DF5C144CE932004A5219 /* Build configuration list for PBXNativeTarget "Programmer's Killswitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3188DF5D144CE932004A5219 /* Debug */,
+				3188DF5E144CE932004A5219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3188DF35144CE931004A5219 /* Project object */;
+}

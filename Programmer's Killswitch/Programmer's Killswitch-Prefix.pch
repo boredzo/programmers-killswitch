@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Programmer's Killswitch' target in the 'Programmer's Killswitch' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
