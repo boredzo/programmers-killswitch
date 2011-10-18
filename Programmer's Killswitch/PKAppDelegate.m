@@ -3,18 +3,23 @@
 //  Programmer's Killswitch
 //
 //  Created by Peter Hosey on 2011-10-17.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Peter Hosey. All rights reserved.
 //
 
 #import "PKAppDelegate.h"
 
+#import "PKProcessKiller.h"
+
 @implementation PKAppDelegate
-
-@synthesize window = _window;
-
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	// Insert code here to initialize your application
+	PKProcessKiller *killer;
+}
+
+- (void) applicationWillFinishLaunching:(NSNotification *)notification {
+	killer = [PKProcessKiller new];
+}
+- (void) applicationWillTerminate:(NSNotification *)notification {
+	killer = nil;
 }
 
 @end
