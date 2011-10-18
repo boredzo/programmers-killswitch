@@ -13,6 +13,7 @@
 		3188DF53144CE931004A5219 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3188DF51144CE931004A5219 /* Credits.rtf */; };
 		3188DF56144CE931004A5219 /* PKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3188DF55144CE931004A5219 /* PKAppDelegate.m */; };
 		3188DF59144CE932004A5219 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3188DF57144CE932004A5219 /* MainMenu.xib */; };
+		3188DF61144CEB09004A5219 /* PKProcessKiller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3188DF60144CEB09004A5219 /* PKProcessKiller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		3188DF45144CE931004A5219 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3188DF46144CE931004A5219 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3188DF47144CE931004A5219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3188DF4A144CE931004A5219 /* Programmer's Killswitch-Info.plist */ = {isa = PBXFileReference; path = "Programmer's Killswitch-Info.plist"; sourceTree = "<group>"; };
+		3188DF4A144CE931004A5219 /* Programmer's Killswitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Programmer's Killswitch-Info.plist"; sourceTree = "<group>"; };
 		3188DF4C144CE931004A5219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3188DF4E144CE931004A5219 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3188DF50144CE931004A5219 /* Programmer's Killswitch-Prefix.pch */ = {isa = PBXFileReference; path = "Programmer's Killswitch-Prefix.pch"; sourceTree = "<group>"; };
+		3188DF50144CE931004A5219 /* Programmer's Killswitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Programmer's Killswitch-Prefix.pch"; sourceTree = "<group>"; };
 		3188DF52144CE931004A5219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		3188DF54144CE931004A5219 /* PKAppDelegate.h */ = {isa = PBXFileReference; path = PKAppDelegate.h; sourceTree = "<group>"; };
+		3188DF54144CE931004A5219 /* PKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAppDelegate.h; sourceTree = "<group>"; };
 		3188DF55144CE931004A5219 /* PKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAppDelegate.m; sourceTree = "<group>"; };
 		3188DF58144CE932004A5219 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3188DF5F144CEB09004A5219 /* PKProcessKiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKProcessKiller.h; sourceTree = "<group>"; };
+		3188DF60144CEB09004A5219 /* PKProcessKiller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKProcessKiller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			children = (
 				3188DF54144CE931004A5219 /* PKAppDelegate.h */,
 				3188DF55144CE931004A5219 /* PKAppDelegate.m */,
+				3188DF5F144CEB09004A5219 /* PKProcessKiller.h */,
+				3188DF60144CEB09004A5219 /* PKProcessKiller.m */,
 				3188DF57144CE932004A5219 /* MainMenu.xib */,
 				3188DF49144CE931004A5219 /* Supporting Files */,
 			);
@@ -167,6 +172,7 @@
 			files = (
 				3188DF4F144CE931004A5219 /* main.m in Sources */,
 				3188DF56144CE931004A5219 /* PKAppDelegate.m in Sources */,
+				3188DF61144CEB09004A5219 /* PKProcessKiller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
