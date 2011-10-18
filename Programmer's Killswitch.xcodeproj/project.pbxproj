@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31630678144D088E007D9045 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3163066A144D088E007D9045 /* DDHotKeyCenter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31630682144D09FA007D9045 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31630681144D09FA007D9045 /* Carbon.framework */; };
 		3188DF43144CE931004A5219 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3188DF42144CE931004A5219 /* Cocoa.framework */; };
 		3188DF4D144CE931004A5219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3188DF4B144CE931004A5219 /* InfoPlist.strings */; };
 		3188DF4F144CE931004A5219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3188DF4E144CE931004A5219 /* main.m */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31630669144D088E007D9045 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		3163066A144D088E007D9045 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		31630681144D09FA007D9045 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		3188DF3E144CE931004A5219 /* Programmer's Killswitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmer's Killswitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3188DF42144CE931004A5219 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3188DF45144CE931004A5219 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -39,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31630682144D09FA007D9045 /* Carbon.framework in Frameworks */,
 				3188DF43144CE931004A5219 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,10 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31630660144D088E007D9045 /* DDHotKey */ = {
+			isa = PBXGroup;
+			children = (
+				31630669144D088E007D9045 /* DDHotKeyCenter.h */,
+				3163066A144D088E007D9045 /* DDHotKeyCenter.m */,
+			);
+			path = DDHotKey;
+			sourceTree = "<group>";
+		};
 		3188DF33144CE931004A5219 = {
 			isa = PBXGroup;
 			children = (
 				3188DF48144CE931004A5219 /* Programmer's Killswitch */,
+				31630660144D088E007D9045 /* DDHotKey */,
 				3188DF41144CE931004A5219 /* Frameworks */,
 				3188DF3F144CE931004A5219 /* Products */,
 			);
@@ -67,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				3188DF42144CE931004A5219 /* Cocoa.framework */,
+				31630681144D09FA007D9045 /* Carbon.framework */,
 				3188DF44144CE931004A5219 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -141,6 +158,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = 3188DF33144CE931004A5219;
 			productRefGroup = 3188DF3F144CE931004A5219 /* Products */;
@@ -173,6 +191,7 @@
 				3188DF4F144CE931004A5219 /* main.m in Sources */,
 				3188DF56144CE931004A5219 /* PKAppDelegate.m in Sources */,
 				3188DF61144CEB09004A5219 /* PKProcessKiller.m in Sources */,
+				31630678144D088E007D9045 /* DDHotKeyCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +313,7 @@
 				3188DF5E144CE932004A5219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

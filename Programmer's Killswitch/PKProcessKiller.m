@@ -8,6 +8,8 @@
 
 #import "PKProcessKiller.h"
 
+#import "DDHotKeyCenter.h"
+
 @interface PKProcessKiller ()
 - (BOOL) isRunningApplicationWeCareAbout:(NSRunningApplication *)app;
 @end
@@ -16,6 +18,7 @@
 {
 	NSArray *developerToolProcessNames;
 	NSMutableArray *runningApplications;
+	DDHotKeyCenter *hotKeyCenter;
 }
 
 - (id)init {
@@ -59,6 +62,15 @@
 			if ([self isRunningApplicationWeCareAbout:app])
 				[runningApplications addObject:app];
 		}
+
+		hotKeyCenter = [DDHotKeyCenter new];
+		[hotKeyCenter registerHotKeyWithKeyCode:kVK_ANSI_X
+								  modifierFlags:NSControlKeyMask | NSCommandKeyMask
+										   task:^void(NSEvent *event)
+			{
+				[self killAllTheDeveloperTools];
+			}
+		 ];
     }
     return self;
 }
