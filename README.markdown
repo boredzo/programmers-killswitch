@@ -2,6 +2,8 @@
 
 Have this running while you use Xcode. If it starts driving the system into paging hell, press ctrl-⌘-X.
 
+[Download it from this page.](https://github.com/boredzo/programmers-killswitch/downloads)
+
 Currently, the Killswitch will kill these processes:
 
 - Xcode
